@@ -1,0 +1,27 @@
+{
+  "name": "esm-launcher",
+  "version": "1.0.0",
+  "description": "Launch commands with ESM preloaded.",
+  "bin": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ulyssesrr/esm-launcher.git"
+  },
+  "keywords": [
+    "esm",
+    "launcher"
+  ],
+  "author": "Ulysses R. Ribeiro <ulyssesrr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulyssesrr/esm-launcher/issues"
+  },
+  "homepage": "https://github.com/ulyssesrr/esm-launcher#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "npm-which": "^3.0.1"
+  }
+}
